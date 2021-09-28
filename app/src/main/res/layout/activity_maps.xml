@@ -23,12 +23,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add Shop here" />
-
-    <fragment
-        android:id="@+id/place_autocomplete"
-        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/spinnerPart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+<!--    <fragment-->
+<!--        -->
+<!--        android:id="@+id/place_autocomplete"-->
+<!--        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
 
     <fragment
         android:id="@+id/map"

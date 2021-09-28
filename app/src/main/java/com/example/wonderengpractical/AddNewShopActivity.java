@@ -35,9 +35,9 @@ public class AddNewShopActivity extends AppCompatActivity {
                 if (shopName == null || shopName.isEmpty() || details == null || details.isEmpty() || address == null || address.isEmpty()) {
                     Toast.makeText(AddNewShopActivity.this, "Uh Oh!" + "\n" + "Fill all details", Toast.LENGTH_SHORT).show();
                 } else {
-                    address = "6.511815,81.197263";
+//                    address = "6.511815,81.197263";
                     address = "6.162401,80.669575";
-                    address = "6.249776,80.220251";
+//                    address = "6.249776,80.220251";
 
                     db.addShop(shopName, details, address);
                     Intent i=new Intent(AddNewShopActivity.this,MapsActivity.class);
