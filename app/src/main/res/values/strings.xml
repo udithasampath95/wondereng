@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WonderEngPractical</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_api_key" translatable="false">AIzaSyA2WZvBBBhxZ-AJDgIkmnEi0SlFCblmTEQ</string>
+</resources>
